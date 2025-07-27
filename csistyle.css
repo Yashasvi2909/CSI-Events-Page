@@ -57,6 +57,9 @@ body {
 
 /* Responsive Nav */
 @media screen and (max-width: 768px) {
+    .card {
+        max-width: 90%;
+    }
     .nav-right {
         width: 100%;
     }
