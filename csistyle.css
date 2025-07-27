@@ -177,7 +177,7 @@ body {
 }
 
 .register-btn {
-    display: inline-block;
+    display: button;
     margin-top: 15px;
     padding: 10px 20px;
     background-color: #007bff;
