@@ -176,7 +176,7 @@ body {
     color: #fefbfb;
 }
 
-.register-btn {
+/*.register-btn {
     display: button;
     margin-top: 15px;
     padding: 10px 20px;
@@ -189,7 +189,24 @@ body {
 
 .register-btn:hover {
     background-color: #0673e1;
+}*/
+
+.register-btn {
+    display: inline-block; /* correct display value for buttons */
+    margin: 15px auto; /* center vertically and horizontally */
+    padding: 10px 20px;
+    background-color: black; /* updated color */
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
 }
+
+.register-btn:hover {
+    background-color: #333; /* darker black on hover */
+}
+
 
 /* Footer */
 footer {
