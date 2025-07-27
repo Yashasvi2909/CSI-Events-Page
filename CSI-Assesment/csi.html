@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>CSI Task</title>
+    <link rel="stylesheet" href="csistyle.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-left">
+            <img src="logo.jpg" alt="CSI Logo" class="logo">
+            <h2>CSI GRIET - Explore Our Events</h2>
+        </div>
+
+
+        <!-- Hamburger Menu Icon -->
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+
+        <!-- Navigation Links -->
+        <div class="nav-right" id="nav-links">
+            <ul>
+                <li><a href="http://www.csi.griet.ac.in/">Home</a></li>
+                <li><a href="https://csiindia.org/">About</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="card-container">
+        <!-- Card 1 -->
+        <div class="card">
+            <div><img src="img1.jpg" alt="Card 1"></div>
+            <div><h3>Cloud Combat</h3></div>
+            <div>Dive into the world of Cloud Computing through practical labs on platforms like Google Cloud. Participants will earn real-time skill badges, boosting their tech profile and industry readiness.</div>
+            <a href="#" class="register-btn">Register</a>
+        </div>
+        <!-- Card 2 -->
+        <div class="card">
+            <div><img src="img2.jpg" alt="Card 2"></div>
+            <div><h3>Git Smash</h3></div>
+            <div>An interactive hands-on workshop where you'll learn how to use Git and GitHub like a pro! From commits to pull requests, get the skills to collaborate on real-world projects with ease.</div>
+            <a href="#" class="register-btn">Register</a>
+        </div>
+        <!-- Card 3 -->
+        <div class="card">
+            <div><img src="img3.jpg" alt="Card 3"></div>
+            <div><h3>Emergence</h3></div>
+            <div>Explore the future of tech in this interactive quiz on emerging technologies like AI, Blockchain, Cloud, and Cybersecurity. Understand their real-world impact and how they shape our careers.</div>
+            <a href="#" class="register-btn">Register</a>
+        </div>
+        <!-- Card 4 -->
+        <div class="card">
+            <div><img src="img4.jpg" alt="Card 4"></div>
+            <div><h3>Hack your Pace</h3></div>
+            <div>Kickstart your coding journey! Learn the use of competitive programming platforms like LeetCode, HackerRank, and Codeforces, followed by a hands-on coding challenge to test your pace and logic.</div>
+            <a href="#" class="register-btn">Register</a>
+        </div>
+        <!-- Card 5 -->
+        <div class="card">
+            <div><img src="img6.jpg" alt="Card 5"></div>
+            <div><h3>Tech Thambola</h3></div>
+            <div>A fun twist on the traditional Tambola game with a tech spin! Decode ASCII values of given characters or symbols and mark them on your ticket to win.Try your luck ahead of ASCII</div>
+            <a href="#" class="register-btn">Register</a>
+        </div>
+        <!-- Card 6 -->
+        <div class="card">
+            <div><img src="img5.jpg" alt="Card 6"></div>
+            <div><h3>Debug Matrix</h3></div>
+            <div>Sharpen your debugging skills! Participants will be given buggy code snippets, and the challenge is to identify and fix them correctly within a time limit.The winner gets a prize pool.</div>
+            <a href="#" class="register-btn">Register</a>
+        </div>
+    </section>
+
+    <footer>
+        <h3>Contact me: bobby2992006@gmail.com</h3>
+        <h3>9573547419</h3>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById("nav-links");
+            navLinks.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
