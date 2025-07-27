@@ -206,6 +206,9 @@ body {
 .register-btn:hover {
     background-color: #333; /* darker black on hover */
 }
+.button-container {
+    text-align: center;
+}
 
 
 /* Footer */
